@@ -1,6 +1,6 @@
-# KeyCrypt
+# Cryptix
 
-KeyCrypt is a modular desktop application built with PySide6 for encrypting and decrypting text using a user-provided key. The project is designed with scalability and maintainability in mind, following a clear separation of concerns between UI, business logic, and core encryption logic.
+Cryptix is a modular desktop application built with PySide6 for encrypting and decrypting text using a user-provided key. The project is designed with scalability and maintainability in mind, following a clear separation of concerns between UI, business logic, and core encryption logic.
 
 ---
 
@@ -25,8 +25,7 @@ KeyCrypt is a modular desktop application built with PySide6 for encrypting and 
 ## Project Structure
 
 ```
-keycrypt_app/
-├── app/                # Application entry and configuration
+app/                    # Application entry and configuration
 ├── core/               # Core encryption logic
 ├── services/           # Business logic layer
 ├── ui/                 # User interface (views, controllers)
@@ -42,8 +41,8 @@ keycrypt_app/
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/keycrypt.git
-cd keycrypt
+git clone https://github.com/your-username/cryptix.git
+cd cryptix
 ```
 
 2. Create a virtual environment (recommended):
@@ -64,7 +63,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```
-python run.py
+python ./app/main.py
 ```
 
 ---
